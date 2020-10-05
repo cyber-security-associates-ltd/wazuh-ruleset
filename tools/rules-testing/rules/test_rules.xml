@@ -462,4 +462,156 @@
   <description>Different srcuser works</description>
 </rule>
 
+<!-- Testing action field negation. -->
+<rule id="999300" level="3">
+  <action negate="no"></action>
+  <description>Testing disabled action field negation</description>
+</rule>
+
+<rule id="999301" level="3">
+  <action negate="yes"></action>
+  <description>Testing enabled action field negation</description>
+</rule>
+
+<!-- Testing dstip field negation. -->
+<rule id="999302" level="3">
+  <dstip negate="no"></dstip>
+  <description>Testing disabled dstip field negation</description>
+</rule>
+
+<rule id="999303" level="3">
+  <dstip negate="yes"></dstip>
+  <description>Testing enabled dstip field negation</description>
+</rule>
+
+<!-- Testing extra_data field negation. -->
+<rule id="999304" level="3">
+  <extra_data negate="no"></extra_data>
+  <description>Testing disabled extra_data field negation</description>
+</rule>
+
+<rule id="999305" level="3">
+  <extra_data negate="yes"></extra_data>
+  <description>Testing enabled extra_data field negation</description>
+</rule>
+
+<!-- Testing field field negation. -->
+<rule id="999306" level="3">
+  <field test_field negate="no"></field>
+  <description>Testing disabled field field negation</description>
+</rule>
+
+<rule id="999307" level="3">
+  <field name="test_field" negate="yes"></field>
+  <description>Testing enabled field field negation</description>
+</rule>
+
+<!-- Testing hostname field negation. -->
+<rule id="999308" level="3">
+  <hostname negate="no"></hostname>
+  <description>Testing disabled hostname field negation</description>
+</rule>
+
+<rule id="999309" level="3">
+  <hostname negate="yes"></hostname>
+  <description>Testing enabled hostname field negation</description>
+</rule>
+
+<!-- Testing id field negation. -->
+<rule id="999310" level="3">
+  <id negate="no"></id>
+  <description>Testing disabled id field negation</description>
+</rule>
+
+<rule id="999311" level="3">
+  <id negate="yes"></id>
+  <description>Testing enabled id field negation</description>
+</rule>
+
+<!-- Testing location field negation. -->
+<rule id="999312" level="3">
+  <location negate="no"></location>
+  <description>Testing disabled location field negation</description>
+</rule>
+
+<rule id="999313" level="3">
+  <location negate="yes"></location>
+  <description>Testing enabled location field negation</description>
+</rule>
+
+<!-- Testing match field negation. -->
+<rule id="999314" level="3">
+  <match negate="no"></match>
+  <description>Testing disabled match field negation</description>
+</rule>
+
+<rule id="999315" level="3">
+  <match negate="yes"></match>
+  <description>Testing enabled match field negation</description>
+</rule>
+
+<!-- Testing program_name field negation. -->
+<rule id="999316" level="3">
+  <program_name negate="no"></program_name>
+  <description>Testing disabled program_name field negation</description>
+</rule>
+
+<rule id="999317" level="3">
+  <program_name negate="yes"></program_name>
+  <description>Testing enabled program_name field negation</description>
+</rule>
+
+<!-- Testing protocol field negation. -->
+<rule id="999318" level="3">
+  <protocol negate="no"></protocol>
+  <description>Testing disabled protocol field negation</description>
+</rule>
+
+<rule id="999319" level="3">
+  <protocol negate="yes"></protocol>
+  <description>Testing enabled protocol field negation</description>
+</rule>
+
+<!-- Testing regex field negation. -->
+<rule id="999320" level="3">
+  <regex negate="no"></regex>
+  <description>Testing disabled regex field negation</description>
+</rule>
+<rule id="999321" level="3">
+  <regex negate="yes"></regex>
+  <description>Testing enabled regex field negation</description>
+</rule>
+
+<!-- Testing srcip field negation. -->
+<rule id="999322" level="3">
+  <srcip negate="no"></srcip>
+  <description>Testing disabled srcip field negation</description>
+</rule>
+<rule id="999323" level="3">
+  <srcip negate="yes"></srcip>
+  <description>Testing enabled srcip field negation</description>
+</rule>
+
+<!-- Testing user field negation. -->
+<rule id="999324" level="3">
+  <user negate="no"></user>
+  <description>Testing disabled user field negation</description>
+</rule>
+
+<rule id="999325" level="3">
+  <user negate="yes"></user>
+  <description>Testing enabled user field negation</description>
+</rule>
+
+<!-- Testing url field negation. -->
+<rule id="999326" level="3">
+  <url negate="no"></url>
+  <description>Testing disabled url field negation</description>
+</rule>
+
+<rule id="9993267" level="3">
+  <url negate="yes"></url>
+  <description>Testing enabled url field negation</description>
+</rule>
+
 </group>
